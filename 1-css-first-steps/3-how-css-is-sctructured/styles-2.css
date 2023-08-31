@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(190, 190, 190);
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: bisque;
+  }
+}
