@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+}
+
+h1.main-heading {
+  font-size: 4em;
+}
+
+.main-heading {
+  font-style: italic;
+}
+
+p,
+li {
+  color: green;
+}
+
+li {
+  list-style-type: square;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a {
+  font-weight: 700;
+}
+
+a:link {
+  color: rgb(109, 0, 18);
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
