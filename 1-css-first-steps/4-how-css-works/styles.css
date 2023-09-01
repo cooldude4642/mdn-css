@@ -1,0 +1,9 @@
+p {
+  font-size: 2em;
+  font-size: calc(100% + 1em);
+  text-decoration: underline;
+  /* color: green; */
+  colour: green;
+}
+
+/* The render tree is laid out in the structure it should appear in after the rules have been applied to it. */
