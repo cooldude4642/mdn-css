@@ -1,0 +1,45 @@
+h1 {
+  color: blue;
+}
+
+.heading-1 {
+  color: red;
+}
+
+h1,
+.heading-2 {
+  font-size: 4em;
+}
+
+#heading {
+  background-color: aqua;
+}
+
+h1[title] {
+  border: 2px solid black;
+}
+
+.heading-1[title] {
+  border-radius: 20px;
+}
+
+.heading-2[title="heading-3"] {
+  text-decoration: underline;
+}
+
+h1:hover {
+  color: blueviolet;
+}
+
+p::first-line {
+  color: red;
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+p > strong {
+  color: green;
+}
