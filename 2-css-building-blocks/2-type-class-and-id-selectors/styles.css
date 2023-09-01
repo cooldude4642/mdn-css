@@ -1,0 +1,39 @@
+p {
+  color: blue;
+}
+
+* {
+  text-decoration: underline;
+}
+
+p * {
+  color: red;
+}
+
+p :first-child {
+  background-color: green;
+}
+
+p *:first-child {
+  background-color: aquamarine;
+}
+
+.paragraph {
+  border: 2px solid hotpink;
+}
+
+span.paragraph {
+  background-color: chartreuse;
+}
+
+.span {
+  font-size: 10px;
+}
+
+#bold {
+  padding: 20px;
+}
+
+.span.paragraph {
+  color: coral;
+}
