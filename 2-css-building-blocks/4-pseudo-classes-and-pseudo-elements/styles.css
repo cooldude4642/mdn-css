@@ -1,0 +1,81 @@
+p:first-child {
+  color: red;
+}
+
+p:last-child {
+  text-decoration: underline;
+}
+
+p:only-child {
+  border: 2px solid lightsalmon;
+}
+
+p:hover {
+  font-size: 32px;
+}
+
+a:focus {
+  color: green;
+}
+
+p::first-line {
+  background-color: black;
+}
+
+p:first-child::first-line {
+  font-style: italic;
+}
+
+a::before {
+  content: "before";
+  background-color: red;
+}
+
+a::after {
+  content: "after";
+  background-color: red;
+}
+
+p::before {
+  content: "🤯";
+  font-size: 32px;
+}
+
+p::after {
+  content: "o";
+  background-color: blue;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.arrow_box {
+  position: relative;
+  background: #88b7d5;
+  border: 4px solid #c2e1f5;
+}
+.arrow_box:after,
+.arrow_box:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #88b7d5;
+  border-width: 30px;
+  margin-left: -30px;
+}
+.arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #c2e1f5;
+  border-width: 36px;
+  margin-left: -36px;
+}
