@@ -1,0 +1,35 @@
+[title] {
+  color: red;
+}
+
+p[title] {
+  letter-spacing: 5px;
+}
+
+[title="lorem ipsum-dolor"] {
+  text-decoration: underline;
+}
+
+[title~="lorem"] {
+  border: 2px solid coral;
+}
+
+[title|="lorem ipsum"] {
+  padding: 20px;
+}
+
+[title^="lor"] {
+  border-radius: 10px;
+}
+
+[title$="dolor"] {
+  background-color: rgb(114, 223, 223);
+}
+
+[title*="su"] {
+  font-style: italic;
+}
+
+[title^="LOR" i] {
+  font-size: 2em;
+}
