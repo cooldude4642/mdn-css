@@ -1,0 +1,51 @@
+.lorem {
+  color: aquamarine !important;
+}
+
+p {
+  color: chocolate !important;
+}
+
+#lorem[class="lorem"]:first-child {
+  color: cornflowerblue;
+}
+
+#lorem[class="lorem"] {
+  color: brown;
+}
+
+#lorem {
+  color: yellow;
+}
+
+.lorem[id="lorem"] {
+  color: purple;
+}
+
+.lorem {
+  all: unset;
+}
+
+em {
+  color: green;
+}
+
+em {
+  color: inherit;
+}
+
+em {
+  color: initial;
+}
+
+em {
+  color: unset;
+}
+
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}

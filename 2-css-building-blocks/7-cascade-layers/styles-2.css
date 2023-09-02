@@ -1,0 +1,17 @@
+.lorem {
+  color: darkorange !important;
+}
+
+@layer page {
+  .lorem {
+    text-decoration: overline;
+    color: red;
+  }
+}
+
+@layer site {
+  .lorem {
+    text-decoration: underline;
+    color: green;
+  }
+}
