@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Display</h2>
+
+    <div class="flex">
+      <div class="block">
+        block
+        <div class="block">block in block</div>
+      </div>
+
+      <div class="inline">
+        inline
+        <div class="inline">inline in inline</div>
+      </div>
+
+      <div class="block">
+        block
+        <div class="inline">inline in block</div>
+      </div>
+
+      <div class="inline">
+        inline
+        <div class="block">block in inline</div>
+      </div>
+
+      <div class="block">
+        block
+        <div class="flex">flex (outer like block)</div>
+      </div>
+      <div class="block">
+        block
+        <div class="inline-flex">inline-flex (outer like inline, but...)</div>
+      </div>
+    </div>
+
+    <h2>Box model</h2>
+
+    <div class="block-model">box (actualy 150x150)</div>
+
+    <div class="block-model border-box">border-box</div>
+
+    <h3>Margin</h3>
+
+    <div class="margin-block">
+      margin
+      <div class="margin-block">first child</div>
+      <div class="margin-block">second child</div>
+      <div class="margin-block">third child</div>
+    </div>
+
+    <h3>Border</h3>
+
+    <div class="border">border</div>
+
+    <h3>Padding</h3>
+
+    <div class="padding">padding</div>
+  </body>
+</html>
